@@ -1,0 +1,14 @@
+h1 {
+  text-align: center;
+  color: #c393;
+}
+
+head {
+  color: #f435;
+}
+
+header {
+  width: auto;
+  height: 100px;
+  background-color: #rgba(255, 0, 0, 0.5);
+}
