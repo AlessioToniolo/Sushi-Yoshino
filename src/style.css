@@ -232,3 +232,106 @@ nav {
   font-size: 20px;
   font-weight: lighter;
 }
+
+
+
+#reviews {
+  margin; 3vh;
+  margin-top: 6vh;
+  margin-bottom: 6vh;
+}
+
+
+.contact {
+  background-color: #3894db;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactUs {
+  font-family: "Work Sans", sans-serif;
+  font-size: 5vh;
+  color: white;
+  letter-spacing: 3px;
+  margin-top: 1.5em;
+  margin-bottom: 0.9em;
+}
+
+.contactForm {
+  display: flex;
+  justify-content: center;
+}
+
+.specialboi {
+  justify-content: center;
+  margin-bottom: 0.9em;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.contactInfoAnswer {
+  display: flex;
+  justify-content: center;
+}
+
+.numberHalf1 {
+  display: flex;
+  width: 50%;
+  float: right;
+}
+
+.numberHalf2 {
+  display: flex;
+  width: 50%;
+  float: right;
+}
+
+.contactInfoAnswer {
+  margin-top: 2vh;
+  margin-bottom: 4.5vh;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: bolder;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+
+.contactForm ul {
+  background-color: rgb(255, 232, 232);
+  border: 1px solid red;
+  color: red;
+  display: none;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 10px 25px;
+  max-width: 250px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.formFields {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  color: white;
+  width: 50%;
+  position: relative;
+}
+
+.top2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.inputs {
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+  border: none;
+}
