@@ -16,6 +16,12 @@ nav {
     font-weight: bold;
 }
 
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
 .navLinks {
     display: flex;
     justify-content: space-around;
@@ -64,42 +70,43 @@ nav {
 .row {
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
+    margin-top: 0.618vh;
 }
 
 .columnLeft {
-    height: 34vh;
     width: 50%;
     justify-content: center;
+    display: flex;
 }
 
 .columnRight {
     width: 50%;
     height: auto;
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #welcomeImage {
-    width: 40vw;
-    margin-top: 10px;
+    width: auto;
+    margin-top: 0.618vh;
     border-radius: 30px;
-    height: 32vh;
-    margin-left: 4vw;
-    margin-right: 4vw;
+    height: 55vh;
 }
 
 #welcomeHello {
-    margin-top: 5vh;
-    padding: 10px;
+    padding: 0.618vh;
     font-family: "Montserrat", sans-serif;
-    font-size: 50px;
+    font-size: 7vh;
     color: black;
 }
 
 #welcomeParagraph {
     padding-top: 60px;
     font-family: "Manrope", sans-serif;
-    font-size: 20px;
+    font-size: 3vh;
     font-weight: lighter;
 }
 
@@ -138,8 +145,9 @@ nav {
 
 .optionImage {
     border-radius: 10%;
-    height: auto;
-    width: 20vw;
+    height: 22vh;
+    object-fit: cover;
+    width: 15vw;
     margin-left: 3.75vw;
     margin-right: 3.75vw;
     margin-top: 10vh;
@@ -248,12 +256,13 @@ nav {
     flex-direction: column;
 }
 
-.specialboi {
+.contact-guide {
     justify-content: center;
     margin-bottom: 0.9em;
     font-family: "Montserrat", sans-serif;
     letter-spacing: 1px;
     color: #3894db;
+    font-size: 2.5vh;
 }
 
 .contactInfoAnswer {
