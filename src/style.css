@@ -238,8 +238,8 @@ nav {
     font-weight: bold;
     color: #3894db;
     letter-spacing: 0.45vw;
-    margin-tv op: 1.5em;
-    margin-bottom: 0.9em;
+    margin-top: 7vh;
+    margin-bottom: 5vh;
 }
 
 .contactForm {
@@ -300,12 +300,13 @@ nav {
 */
 
 .form {
-    width: 50%;
+    width: 23%;
     position: relative;
-    height: 50px;
+    height: 6.6vh;
     margin-bottom: 7vh;
     overflow: hidden;
     font-family: "Work Sans", sans-serif;
+    margin-right: 25%;
 }
 
 .form input {
@@ -345,7 +346,7 @@ nav {
     position: absolute;
     bottom: 0.6631299734748011vh;
     left: 0px;
-    transition: all o.3s ease;
+    transition: all 0.3s ease;
 }
 
 .form input:focus+.label-name .content-name,
@@ -358,4 +359,482 @@ nav {
 .form input:focus+.label-name::after,
 .form input:valid+.label-name::after {
     transform: translateX(0%);
+}
+
+.name-subject {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.name {
+    margin-bottom: 5vh;
+}
+
+.form2 {
+    width: 23%;
+    position: relative;
+    height: 6.6vh;
+    margin-bottom: 7vh;
+    overflow: hidden;
+    font-family: "Work Sans", sans-serif;
+    margin-left: 25%;
+}
+
+.form2 input {
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-size: 2.5vh;
+    padding-top: 2.6525198938992043vh;
+    border: none;
+    outline: none;
+}
+
+.form2 label {
+    font-size: 3vh;
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 0.13262599469496023vw solid black;
+}
+
+.form2 label::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -0.13262599469496023vh;
+    height: 100%;
+    width: 100%;
+    border-bottom: 0.3978779840848806vh solid #3894db;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+}
+
+.content-name {
+    position: absolute;
+    bottom: 0.6631299734748011vh;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+
+.form2 input:focus+.label-name .content-name,
+.form2 input:valid+.label-name .content-name {
+    transform: translateY(-150%);
+    font-size: 2vh;
+    color: #3894db;
+}
+
+.form2 input:focus+.label-name::after,
+.form2 input:valid+.label-name::after {
+    transform: translateX(0%);
+}
+
+.name-subject {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.name {
+    margin-bottom: 5vh;
+}
+
+.top2forms {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.oneleftpush {
+    margin-left: 90%;
+}
+
+.formfields {
+    width: 100%;
+}
+
+form {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input {
+    width: 100%;
+}
+
+textarea {
+    height: 20vh;
+    border-radius: 2vh;
+    resize: none;
+    margin-top: 5vh;
+    padding: 1%;
+    border: 5px solid white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: lighter;
+    margin-bottom: 5vh;
+}
+
+input,
+textarea {
+    outline: none;
+    border: 2px solid black;
+    font-size: 2.5vh;
+}
+
+input:focus {
+    border-bottom: 2px solid #3894db;
+}
+
+textarea:focus {
+    border: 2px solid #3894db;
+}
+
+input::placeholder {
+    opacity: 1;
+}
+
+form div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.input {
+    padding: 1%;
+    border: none;
+    border-bottom: 2px solid black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5vh;
+}
+
+.form {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+#topfirst {
+    margin-right: 2vw;
+    margin-bottom: 2.5vh;
+}
+
+#topsecond {
+    margin-left: 2vw;
+    margin-bottom: 2.5vh;
+}
+
+#submitButton {
+    border: 2px solid #3894db;
+    padding: 10px 20px;
+    width: 30%;
+    background: none;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.6s;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 8vh;
+}
+
+#submitButton:hover {
+    color: white;
+    background-color: #3894db;
+}
+
+#submitButton:before {
+    color: #3894db;
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #3894db;
+    z-index: -1;
+    transition: 0.6s;
+    top: 0;
+    border-radius: 0 0 50% 50%;
+}
+
+#submitButton:hover::before {
+    height: 180%;
+}
+
+.aboutCover {
+    object-fit: cover;
+    width: 50%;
+}
+
+.aboutText {
+    margin-top: 11vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.aboutUs {
+    font-size: 4.25vh;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 6vh;
+}
+
+.AboutTextSection {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15vh;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 2.5vh;
+    font-weight: 500;
+    line-height: 1.75;
+}
+
+.blankdiv {
+    width: 45vw;
+    height: 7vh;
+}
+
+.aboutImages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.blankdivs2 {
+    background-color: blue;
+    width: 20vw;
+}
+
+.actualAboutImages {
+    display: flexbox;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.firstTwoImage {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vw;
+}
+
+.actual-aboutimages1 {
+    padding-bottom: 2vh;
+}
+
+.actual-aboutimages2 {
+    padding-top: 3vh;
+}
+
+.order {
+    background: url(../Assets/adobewhitewood.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.wannaorder {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20vh;
+}
+
+.bigwannaorder {
+    font-family: "Montserrat", sans-serif;
+    font-size: 9vh;
+    font-weight: bolder;
+}
+
+.smallwannaorder {
+    font-family: "Manrope", sans-serif;
+    font-size: 3vh;
+    padding-top: 4vh;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.delivery {
+    padding-top: 20vh;
+}
+
+.delivery div {
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+    padding-bottom: 20vh;
+}
+
+.delivery center {
+    font-family: "Montserrat", sans-serif;
+    font-size: 4vh;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    padding-right: 1vw;
+}
+
+#postmates {
+    margin-right: 3.5vw;
+    transition: .2s;
+}
+
+#postmates:hover {
+    transform: scale(1.1, 1.1);
+    height: auto;
+    padding-bottom: auto;
+}
+
+#ubereats {
+    margin-left: 2.5vw;
+    padding-left: 1vw;
+    transition: .2s;
+}
+
+#ubereats:hover {
+    transform: scale(1.1, 1.1);
+    height: auto;
+    padding-bottom: auto;
+}
+
+#doordash {
+    margin-right: 1vw;
+    padding-left: 1vw;
+    transition: .2s;
+}
+
+#doordash:hover {
+    transform: scale(1.1, 1.1);
+    height: auto;
+    padding-bottom: auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #3894db;
+    flex-direction: column;
+}
+
+.icon {
+    display: flex;
+    font-size: 5vh;
+    transition: 0.5s;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 5vh;
+    height: 15vh;
+}
+
+.icon-div:hover {
+    font-size: 5.5vh;
+    transform: scale(1.08, 1.08);
+}
+
+.icon-div {
+    width: 7vw;
+    list-style: none;
+    padding: 1vh;
+    padding-top: 4vh;
+    transition: 0.2s;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.fa-facebook-f,
+.fa-foursquare,
+.fa-instagram,
+.fa-pizza-slice,
+.fa-tripadvisor,
+.fa-yelp,
+.fa-truck {
+    color: white;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer-info-text {
+    width: 30vw;
+    font-size: 3vh;
+    color: white;
+    font-family: "Nunito Sans", sans-serif;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+#hours {
+    font-weight: 700;
+}
+
+.footer-second-half {
+    background-image: url(https://cdn.moes.com/-/media/moes/backgrounds/speckles.png?v=1&d=20170713T152800Z);
+    font-family: "Work Sans", sans-serif;
+    font-size: 2.5vh;
+    width: 100%;
+    padding: 3vh;
+    margin-top: 4vh;
+}
+
+.footer-second-half center a {
+    color: #6f747a;
+    text-decoration: none;
+    font-size: 2.387vh;
+    font-weight: 500;
+}
+
+.footer-second-half center a:hover {
+    color: black;
+}
+
+.pdf {
+    display: flex;
+    justify-content: center;
+    width: 47%;
+}
+
+.split {
+    height: 100vh;
+    width: 1vw;
+    background-color: #6f747a;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background: #757F9A;
+    /* fallback for old browsers */
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(176, 194, 245));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.pdf center {
+    font-family: "Work Sans", sans-serif;
+    font-size: 4vh;
+}
+
+.pdf center a {
+    color: #6f747a
+}
+
+.pdf center a:hover {
+    color: #3894db;
 }
