@@ -1,6 +1,4 @@
 # Sushi-Yoshino
-![Website shields.io](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
-
 Responsive restaraunt website template created for 🍣 Sushi Yoshino 🍣
 
 # Introduction
