@@ -1,5 +1,5 @@
 # Sushi-Yoshino
-[![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)(https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
 Responsive restaraunt website template created for 🍣 Sushi Yoshino 🍣
 
