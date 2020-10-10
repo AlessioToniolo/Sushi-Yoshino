@@ -3,13 +3,19 @@
 * {
     margin: 0px;
     padding: 0px;
+    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 nav {
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     min-height: 8vh;
     font-family: 'Nunito Sans', sans-serif;
@@ -23,7 +29,10 @@ nav {
 }
 
 .navLinks {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
     width: 38%;
 }
@@ -37,6 +46,8 @@ nav {
     text-decoration: none;
     letter-spacing: 3px;
     font-size: 20px;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
     transition: 0.4s;
 }
 
@@ -68,14 +79,23 @@ nav {
 }
 
 .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
     margin-top: 0.618vh;
 }
 
 .columnLeft {
     width: 50%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -83,9 +103,18 @@ nav {
     width: 50%;
     height: auto;
     overflow-y: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -117,35 +146,63 @@ nav {
 }
 
 .row2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
 .option1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     vertical-align: middle;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 
 .option2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     vertical-align: middle;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 
 .option3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     vertical-align: middle;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 
 .optionImage {
     border-radius: 10%;
     height: 22vh;
+    -o-object-fit: cover;
     object-fit: cover;
     width: 15vw;
     margin-left: 3.75vw;
@@ -166,6 +223,8 @@ nav {
     font-weight: bold;
     letter-spacing: 1px;
     cursor: pointer;
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
     transition: 0.6s;
     position: relative;
     overflow: hidden;
@@ -184,6 +243,8 @@ nav {
     height: 0%;
     background: #3894db;
     z-index: -1;
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
     transition: 0.6s;
     top: 0;
     border-radius: 0 0 50% 50%;
@@ -197,8 +258,14 @@ nav {
     background-image: url(https://cdn.moes.com/-/media/moes/backgrounds/speckles.png?v=1&d=20170713T152800Z);
     width: 100%;
     margin-top: 10vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -234,9 +301,18 @@ nav {
 
 .contact {
     background-color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -251,12 +327,21 @@ nav {
 }
 
 .contactForm {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 
 .contact-guide {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     margin-bottom: 0.9em;
     font-family: "Montserrat", sans-serif;
@@ -266,17 +351,25 @@ nav {
 }
 
 .contactInfoAnswer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
 .numberHalf1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 50%;
     float: right;
 }
 
 .numberHalf2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 50%;
     float: right;
@@ -347,19 +440,29 @@ nav {
     height: 100%;
     width: 100%;
     border-bottom: 0.3978779840848806vh solid #3894db;
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
     transform: translateX(-100%);
+    -webkit-transition: -webkit-transform 0.3s ease;
+    transition: -webkit-transform 0.3s ease;
+    -o-transition: transform 0.3s ease;
     transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 
 .content-name {
     position: absolute;
     bottom: 0.6631299734748011vh;
     left: 0px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 
 .form input:focus+.label-name .content-name,
 .form input:valid+.label-name .content-name {
+    -webkit-transform: translateY(-150%);
+    -ms-transform: translateY(-150%);
     transform: translateY(-150%);
     font-size: 2vh;
     color: #3894db;
@@ -367,12 +470,21 @@ nav {
 
 .form input:focus+.label-name::after,
 .form input:valid+.label-name::after {
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
     transform: translateX(0%);
 }
 
 .name-subject {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 
@@ -419,19 +531,29 @@ nav {
     height: 100%;
     width: 100%;
     border-bottom: 0.3978779840848806vh solid #3894db;
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
     transform: translateX(-100%);
+    -webkit-transition: -webkit-transform 0.3s ease;
+    transition: -webkit-transform 0.3s ease;
+    -o-transition: transform 0.3s ease;
     transition: transform 0.3s ease;
+    transition: transform 0.3s ease, -webkit-transform 0.3s ease;
 }
 
 .content-name {
     position: absolute;
     bottom: 0.6631299734748011vh;
     left: 0px;
+    -webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
 
 .form2 input:focus+.label-name .content-name,
 .form2 input:valid+.label-name .content-name {
+    -webkit-transform: translateY(-150%);
+    -ms-transform: translateY(-150%);
     transform: translateY(-150%);
     font-size: 2vh;
     color: #3894db;
@@ -439,12 +561,21 @@ nav {
 
 .form2 input:focus+.label-name::after,
 .form2 input:valid+.label-name::after {
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
     transform: translateX(0%);
 }
 
 .name-subject {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 
@@ -453,10 +584,20 @@ nav {
 }
 
 .top2forms {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
 }
 
@@ -470,8 +611,15 @@ nav {
 
 form {
     width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 
@@ -506,13 +654,36 @@ textarea:focus {
     border: 2px solid #3894db;
 }
 
+input::-webkit-input-placeholder {
+    opacity: 1;
+}
+
+input::-moz-placeholder {
+    opacity: 1;
+}
+
+input:-ms-input-placeholder {
+    opacity: 1;
+}
+
+input::-ms-input-placeholder {
+    opacity: 1;
+}
+
 input::placeholder {
     opacity: 1;
 }
 
 form div {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
 }
 
@@ -550,6 +721,8 @@ form div {
     font-weight: bold;
     letter-spacing: 1px;
     cursor: pointer;
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
     transition: 0.6s;
     position: relative;
     overflow: hidden;
@@ -570,6 +743,8 @@ form div {
     height: 0%;
     background: #3894db;
     z-index: -1;
+    -webkit-transition: 0.6s;
+    -o-transition: 0.6s;
     transition: 0.6s;
     top: 0;
     border-radius: 0 0 50% 50%;
@@ -580,15 +755,23 @@ form div {
 }
 
 .aboutCover {
+    -o-object-fit: cover;
     object-fit: cover;
     width: 50%;
 }
 
 .aboutText {
     margin-top: 11vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 
@@ -601,9 +784,18 @@ form div {
 }
 
 .AboutTextSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     margin-bottom: 15vh;
     font-family: 'Nunito Sans', sans-serif;
@@ -618,8 +810,15 @@ form div {
 }
 
 .aboutImages {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -630,12 +829,22 @@ form div {
 
 .actualAboutImages {
     display: flexbox;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
 }
 
 .firstTwoImage {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     margin-left: 2vw;
 }
@@ -650,14 +859,16 @@ form div {
 
 .order {
     background: url(../Assets/adobewhitewood.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
 }
 
 .wannaorder {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     padding-top: 20vh;
 }
@@ -681,7 +892,11 @@ form div {
 }
 
 .delivery div {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     padding-top: 5vh;
     padding-bottom: 20vh;
@@ -697,10 +912,14 @@ form div {
 
 #postmates {
     margin-right: 3.5vw;
+    -webkit-transition: .2s;
+    -o-transition: .2s;
     transition: .2s;
 }
 
 #postmates:hover {
+    -webkit-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
     transform: scale(1.1, 1.1);
     height: auto;
     padding-bottom: auto;
@@ -709,10 +928,14 @@ form div {
 #ubereats {
     margin-left: 2.5vw;
     padding-left: 1vw;
+    -webkit-transition: .2s;
+    -o-transition: .2s;
     transition: .2s;
 }
 
 #ubereats:hover {
+    -webkit-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
     transform: scale(1.1, 1.1);
     height: auto;
     padding-bottom: auto;
@@ -721,27 +944,44 @@ form div {
 #doordash {
     margin-right: 1vw;
     padding-left: 1vw;
+    -webkit-transition: .2s;
+    -o-transition: .2s;
     transition: .2s;
 }
 
 #doordash:hover {
+    -webkit-transform: scale(1.1, 1.1);
+    -ms-transform: scale(1.1, 1.1);
     transform: scale(1.1, 1.1);
     height: auto;
     padding-bottom: auto;
 }
 
 .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     background-color: #3894db;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
 }
 
 .icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     font-size: 5vh;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
     transition: 0.5s;
     width: 100%;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     padding-bottom: 5vh;
     height: 15vh;
@@ -749,6 +989,8 @@ form div {
 
 .icon-div:hover {
     font-size: 5.5vh;
+    -webkit-transform: scale(1.08, 1.08);
+    -ms-transform: scale(1.08, 1.08);
     transform: scale(1.08, 1.08);
 }
 
@@ -757,9 +999,15 @@ form div {
     list-style: none;
     padding: 1vh;
     padding-top: 4vh;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
     transition: 0.2s;
     color: white;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -774,7 +1022,11 @@ form div {
 }
 
 .footer-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     width: 100%;
 }
@@ -813,7 +1065,11 @@ form div {
 }
 
 .pdf {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     width: 47%;
 }
@@ -825,12 +1081,23 @@ form div {
 }
 
 .menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
     background: #757F9A;
     /* fallback for old browsers */
+    background: -webkit-gradient(linear, left top, right top, from(rgb(255, 255, 255)), to(rgb(176, 194, 245)));
+    background: -o-linear-gradient(left, rgb(255, 255, 255), rgb(176, 194, 245));
     background: linear-gradient(to right, rgb(255, 255, 255), rgb(176, 194, 245));
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
